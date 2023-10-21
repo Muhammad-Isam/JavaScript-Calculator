@@ -25,5 +25,3 @@ var num1, num2, op;
         }
     }
 }
-
-document.write(calculator());
