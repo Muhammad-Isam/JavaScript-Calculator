@@ -1,5 +1,8 @@
-function calculator(num1, num2, op) {
-
+function calculator() {
+var num1, num2, op;
+    num1 = +prompt("Enter first num: ");
+    num2 = +prompt("Enter first num: ");
+    op = prompt("Enter operator to perform: ");
     if (isNaN(num1) || isNaN(num2)) {
         alert("Error! Please enter a valid number!");
     }
