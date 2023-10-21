@@ -1,3 +1,5 @@
+document.write(calculator())
+
 function calculator() {
 var num1, num2, op;
     num1 = +prompt("Enter first num: ");
